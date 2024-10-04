@@ -18,7 +18,7 @@ body {
 .main {
     background-color: #d3d3d3;
     height: auto;
-    width: 800px; /* Increased width for better spacing */
+    width: 800px; 
     position: relative;
     display: flex;
     box-shadow: 0 4px 8px rgba(0,0,0,0.5);
@@ -27,13 +27,13 @@ body {
 
 .left {
     background-color: #b1afaf;
-    width: 250px; /* Adjusted for more proportional space */
+    width: 250px; 
     padding: 20px;
     height: auto;
 }
 
 .right {
-    width: 550px; /* Adjusted width */
+    width: 550px; 
     padding: 30px;
 }
 
@@ -68,12 +68,12 @@ body {
 
 .p1 {
     padding: 10px;
-    font-size: 14px; /* Increased font size */
+    font-size: 14px;
 }
 
 .icons1 {
-    font-size: 16px !important;
-    padding-right: 10px !important;
+    font-size: 16px;
+    padding-right: 10px ;
     vertical-align: middle;
 }
 
@@ -97,7 +97,7 @@ body {
 
 .Java {
     width: 80%;
-    background-color: #e74c3c; /* Correct color */
+    background-color: #e74c3c; 
 }
 
 .css {
@@ -162,46 +162,16 @@ h2 {
     padding-left: 20px;
 }
 
-/* Responsive breakpoints */
 
-/* Media query for screen width 992px and below (tablets, smaller laptops) */
 @media (max-width: 992px) {
     .main {
-        width: 90%; /* Adjust width for smaller screens */
-    }
-
-    .left {
-        width: 200px; /* Slightly reduce left section width */
-    }
-
-    .right {
-        width: calc(100% - 200px); /* Adjust right section width */
-    }
-
-    .profile-img {
-        height: 150px;
-        width: 150px;
-    }
-
-    .p1, .p2, .p3 {
-        font-size: 13px; /* Adjust text size for better readability */
-    }
-
-    h2 {
-        font-size: 16px;
-    }
-}
-
-/* Media query for screen width 768px and below (smaller tablets, large smartphones) */
-@media (max-width: 768px) {
-    .main {
-        flex-direction: column; /* Stack sections vertically */
-        width: 95%; /* Full width with some padding */
+        flex-direction: column; 
+        width: 95%; 
     }
 
     .left, .right {
-        width: 100%; /* Both sections take full width */
-        padding: 15px; /* Adjust padding */
+        width: 100%; 
+        padding: 15px; 
     }
 
     .profile-img {
@@ -218,48 +188,74 @@ h2 {
     }
 
     .icons1 {
-        font-size: 14px !important; /* Adjust icon size */
+        font-size: 14px ; 
     }
 }
 
-/* Media query for screen width 576px and below (mobile devices) */
-@media (max-width: 576px) {
+
+
+
+
+@media (max-width: 768px) {
     .main {
-        flex-direction: column;
-        width: 100%; /* Full width on small screens */
+        flex-direction: column; 
+        width: 95%; 
     }
 
     .left, .right {
-        width: 100%; /* Both sections take full width */
-        padding: 10px; /* Adjust padding */
+        width: 100%; 
+        padding: 15px; 
     }
 
     .profile-img {
-        height: 100px;
-        width: 100px;
+        height: 130px;
+        width: 130px;
     }
 
     .p1, .p2, .p3 {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     h2 {
-        font-size: 14px;
+        font-size: 15px;
     }
 
-    .icons1, .icons2, .icons3 {
-        font-size: 12px !important;
-    }
-
-    .heading {
-        padding: 8px; /* Reduce padding for headings */
-    }
-
-    .skill-container {
-        width: 100%; /* Skill bars take full width */
-    }
-
-    .name-div h1 {
-        font-size: 18px; /* Adjust title size */
+    .icons1 {
+        font-size: 14px ; 
     }
 }
+
+
+
+
+
+@media (max-width: 576px) {
+    .main {
+        flex-direction: column; 
+        width: 95%; 
+    }
+
+    .left, .right {
+        width: 100%; 
+        padding: 15px; 
+    }
+
+    .profile-img {
+        height: 130px;
+        width: 130px;
+    }
+
+    .p1, .p2, .p3 {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .icons1 {
+        font-size: 14px ; 
+    }
+}
+
+
